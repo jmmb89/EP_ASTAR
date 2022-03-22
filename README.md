@@ -17,14 +17,12 @@ chmod +x start.sh \
 o script baixa, descompacta, e compila o source do Lua,  bem rapido e leve. (menos de 1MB) \
 requer: bash, curl, tar, make. acredito que todos venham instalado por padrao no mac.
 
-se tiver lua instalado pode rodar o script ou o arquivo main.lua direto (o script detecta se voce tem instalado ou compilado, e escolhe o binario para voce)
+se tiver lua instalado pode rodar o script ou o arquivo main.lua direto (o script detecta se voce tem instalado ou ja compilou pelo e script e escolhe o binario, dando preferencia ao do sistema.)
 
 -Caso nada disso de certo: \
 Vou incluir o binario na pasta bin, entao basta rodar: \
 chmod +x start.sh \
 ./start.sh bin
-
-
 
 ## Porque Lua?
 
