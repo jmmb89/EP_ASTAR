@@ -151,7 +151,6 @@ function a_star(sx, sy, ex, ey)
 	end
 
 	while open_len() > 0 and not path_found do
-	--while open_len() > 1 and not path_found do
 		n_tile, n_pos = get_best_guess()
 		if debug then
 			print(string.format("Next_tile = %s", n_tile))
