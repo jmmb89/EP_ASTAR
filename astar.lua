@@ -20,7 +20,7 @@ function table_has_key(tab, key)
 end
 
 function get_distance(x, y, pos)
-	--distancia euclidiana (nao eh exata, mas melhor do que com manhatan)
+	--distancia euclidiana (nao eh exata, mas melhor do que com manhatan por causa das diagonais)
 	dist = math.sqrt(math.pow((x - pos.x), 2) + math.pow((y - pos.y), 2))
 	dist = math.floor(dist*10)
 	return dist
@@ -31,7 +31,7 @@ function get_score(x, y, start_pos, end_pos)
 	g = get_distance(x, y, start_pos)
 	h = get_distance(x, y, end_pos)
 	t = map[x][y]
-  return g + h + t 
+  	return g + h + t 
 end
 
 function get_best_guess()
