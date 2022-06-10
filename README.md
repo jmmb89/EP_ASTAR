@@ -28,9 +28,6 @@ um dicionário, lista, matriz e que também possui diversas funções para traba
 
 Mais sobre a linguagem Lua: https://www.lua.org/portugues.html#oque
 
-## Notas:
- -Todos os bugs foram corrigidos 22/03
-
 ## Alunos:
 
 - Joao Mario Motidome Barradas
